@@ -14,7 +14,7 @@ How do I find my cookie token?
 6. Click on it
 7. Now under "Request headers" copy the part at "Cookie: "
 
-Now put your cookie token in the .env
+Now make a file called ".env" and put your cookie token in there.
 
 Example:
 
