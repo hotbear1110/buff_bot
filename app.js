@@ -15,7 +15,7 @@ const buff = async function() {
 
     console.log('searching...');
     let floats = [];
-    console.log('aa')
+
     while (hasPage) {
         let buffRequest = await axios.get(`https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=${skin_id}&page_num=${page}&page_size=100&sort_by=paintwear.asc&mode=&allow_tradable_cooldown=1&_=1674841790694`, {
             headers: {
