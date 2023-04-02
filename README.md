@@ -1,5 +1,7 @@
 # buff_bot
-Script that can scan buff
+Script that can scan buff for a specific float.
+
+Like if you want a float that has 42069 in the float value somewhere etc.
 
 Requirements:
 
