@@ -19,9 +19,11 @@ Now make a file called ".env" and put your cookie token in there.
 
 Example of .env:
 
-`DEVICE_ID=ldmkgmdfklgldfmk
-SESSION=1-ojhmpogfiohfg+0hm0+fg0+hm
-CSRF_TOKEN=ldmgmdfkgkdfmgkædfmækgmdæ.dhdhdfhd.df433463ge.-dsgsgsg`
+`DEVICE_ID=ldmkgmdfklgldfmk`
+
+`SESSION=1-ojhmpogfiohfg+0hm0+fg0+hm`
+
+`CSRF_TOKEN=ldmgmdfkgkdfmgkædfmækgmdæ.dhdhdfhd.df433463ge.-dsgsgsg`
 
 How do I find my cookie token?
 
