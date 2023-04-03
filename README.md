@@ -15,7 +15,7 @@ Like if you want a float that has 42069 in the float value somewhere etc.
 3. Type "npm i" *enter*
 4. Type "node app.js" *enter*
 
-Now make a file called ".env" and put your cookie token in there.
+Now make a file called ".env" and put your cookie tokens in there.
 
 ### Example of .env:
 
