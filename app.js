@@ -19,7 +19,7 @@ const buff = async function() {
     while (hasPage) {
         let buffRequest = await axios.get(`https://buff.163.com/api/market/goods/sell_order?game=csgo&goods_id=${skin_id}&page_num=${page}&page_size=100&sort_by=paintwear.asc&mode=&allow_tradable_cooldown=1&_=1674841790694`, {
             headers: {
-                'Cookie': process.env.COOKIE
+                'Cookie': `Device-Id=${process.env.DEVICE_ID}; Locale-Supported=en; session=${process.env.SESSION}; csrf_token=${process.env.CSRF_TOKEN}`
             }
         });
     
