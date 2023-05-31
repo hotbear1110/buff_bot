@@ -10,7 +10,7 @@ const buff = async function() {
     console.log('Which skin-id do you want to search?');
     const skin_id = prompt();
 
-    console.log('What float numbet do you want?');
+    console.log('What float number do you want?');
     const float = prompt();
 
     console.log('searching...');
